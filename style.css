@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+      
+}
+/* body{
+    min-height: 5000px;
+} */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(8, 136, 234, 0),rgba(0,0,0,2)),url(pexels-apasaric-325185.jpg);
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    /* color: rgb(7, 7, 108); */
+}
+.logo{
+   
+    color: rgb(45, 62, 93);
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-family:fantasy;
+}
+.menu a:hover{
+    border: 1px solid rgb(1, 1, 64);
+    background: transparent;
+
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(92, 133, 169);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:rgb(148, 178, 204) ;
+    color: rgb(1, 1, 64);
+    border-radius:8px ;
+    display: inline-block;
+
+}
+.register a:hover{
+border: 1px solid  ;
+background: transparent;
+}
+.one{
+position: absolute;
+top: 50%;
+left: 50%;
+max-width: 650px;
+transform: translate(-50%,-50%);
+text-align: center;
+color: rgb(45, 62, 93);
+}
+.one span{
+    letter-spacing: 5px;
+}
+.one h1{
+    font-size: 50px;
+    font-style: italic;
+    
+}
+.one a{
+    background-color:rgb(45, 62, 93) ;/* */
+    color: rgb(148, 178, 204);
+    padding: 10px ;
+    text-decoration: none;
+    letter-spacing: 5px;
+    position: sticky;
+    top:20px;
+}
+.one a:hover{
+    border: 1px solid;
+    background: transparent;
+    }
